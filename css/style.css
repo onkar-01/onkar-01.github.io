@@ -32,18 +32,6 @@ img.svg {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-
-.arlo_tm_section2 {
-  margin-top: 50px;
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box; /* Firefox, other Gecko */
-  box-sizing: border-box; /* Opera/IE 8+ */
-}
 #ripple {
   position: relative;
   z-index: 0;
