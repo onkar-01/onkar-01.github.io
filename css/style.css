@@ -32,6 +32,18 @@ img.svg {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
+
+.arlo_tm_section2 {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
 #ripple {
   position: relative;
   z-index: 0;
@@ -1148,9 +1160,24 @@ img.svg {
 .arlo_tm_services_wrap .list_wrap ul li .icon {
   margin-bottom: 21px;
 }
+.arlo_tm_services_wrap .list_wrap ul li .icon2 {
+  margin-bottom: 5px;
+}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg {
   width: 40px;
   height: 40px;
+  color: #e3872d;
+}
+
+.arlo_tm_services_wrap .list_wrap ul li .icon .logo {
+  width: 110px;
+  height: 40px;
+  color: #e3872d;
+}
+.arlo_tm_services_wrap .list_wrap ul li .icon2 .logo2 {
+  margin-top: -20px;
+  width: 80px;
+  height: 80px;
   color: #e3872d;
 }
 .arlo_tm_services_wrap .list_wrap ul li .title_service {
