@@ -103,7 +103,7 @@ function arlo_tm_imgtosvg() {
         // Replace image with new SVG
         jQueryimg.replaceWith(jQuerysvg);
       },
-      "xml"
+      "xml",
     );
   });
 }
@@ -263,7 +263,7 @@ function arlo_tm_projects() {
             jQuery(this).data("title") +
               '<span class="work__cat">' +
               jQuery(this).data("category") +
-              "</span>"
+              "</span>",
           );
           jQuery(".arlo_tm_portfolio_titles").addClass("visible");
         }
@@ -345,7 +345,7 @@ function arlo_tm_contact_form() {
               .slideUp(500);
           } else {
             jQuery(".contact_form .returnmessage").append(
-              "<span class='contact_success'>" + success + "</span>"
+              "<span class='contact_success'>" + success + "</span>",
             );
             jQuery(".contact_form .returnmessage")
               .slideDown(500)
@@ -356,7 +356,7 @@ function arlo_tm_contact_form() {
           if (data === "") {
             jQuery("#contact_form")[0].reset(); //To reset form fields on success
           }
-        }
+        },
       );
     }
     return false;
@@ -398,7 +398,7 @@ function arlo_tm_owl_carousel() {
     function () {
       carousel.trigger("prev.owl.carousel");
       return false;
-    }
+    },
   );
 
   jQuery(".arlo_tm_services_wrap .custom_nav > a.next").on(
@@ -406,7 +406,7 @@ function arlo_tm_owl_carousel() {
     function () {
       carousel.trigger("next.owl.carousel");
       return false;
-    }
+    },
   );
   arlo_tm_imgtosvg();
 
@@ -542,7 +542,7 @@ function arlo_tm_animate_text() {
   var animateSpan = jQuery(".arlo_tm_animation_text_word");
 
   animateSpan.typed({
-    strings: ["Full Stack Web Developer", "Canva Designer",],
+    strings: ["Full Stack Web Developer", "Canva Designer"],
     loop: true,
     startDelay: 1e3,
     backDelay: 2e3,
