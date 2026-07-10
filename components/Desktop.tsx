@@ -144,7 +144,7 @@ export default function Desktop() {
       <div className={`boot ${booted ? "done" : ""}`} aria-hidden="true">
         <div className="mark">OV</div>
         <div className="os">
-          <b>OnkarOS</b> v3.0 — Next.js edition
+          <b>OnkarOS</b> 
         </div>
         <div className="bar">
           <i style={{ width: `${bootProgress}%` }} />

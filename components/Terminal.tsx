@@ -13,7 +13,7 @@ const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const NEOFETCH = [
   "   ██████╗ ██╗   ██╗   <b>onkar</b>@<b>portfolio</b>",
   "  ██╔═══██╗██║   ██║   ─────────────────",
-  "  ██║   ██║██║   ██║   <b>OS</b>: OnkarOS v3.0 (Next.js edition)",
+  "  ██║   ██║██║   ██║   <b>OS</b>: OnkarOS",
   "  ██║   ██║╚██╗ ██╔╝   <b>Role</b>: Frontend Engineer @ Infyni",
   "  ╚██████╔╝ ╚████╔╝    <b>Stack</b>: React · Next.js · TypeScript",
   "   ╚═════╝   ╚═══╝     <b>Uptime</b>: 3+ years in production",
